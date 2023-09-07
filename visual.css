@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(75, 140, 168);
+    margin: 0;
+    padding: 0;
+  
+    font-family: Arial, Helvetica, sans-serif;
+}.image{
+    display: flex;
+    margin-left: 320px;
+    margin-top: 20px;
+    
+   
+}
+header{
+ 
+    background-color: rgb(169, 241, 197,0.846);
+    width: 100%;
+    align-items: center;
+    
+    display: flex;
+    justify-content: space-between;
+   
+}.image img{
+    width: 200px;
+    height: 310px;
+    margin-right: 10px;
+}
+
+#input{
+    display: flex;
+    margin-left: 330px;
+    margin-top: 10px;
+}#input input{
+    border-radius: 5px;
+    color: 3px solid blueviolet ;
+}
+#input input :hover{
+    color: cornflowerblue;
+}
+#input button{
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+
+
+.container-two a{
+   margin: 15px;
+  
+}
+.container-three a{
+    margin: 15px;
+ }
+
+.container-two img{
+    width: 30px;
+    height: 30px;
+}.container-three img{
+    width: 30px;
+    height: 30px;
+}
+.stick-container{
+  
+    position: fixed;
+   top: 70px;
+   left: 0;
+   
+width: 300px;
+background-color: aqua;
+height: 550px;
+border-radius: 6px;
+border: 3px solid black;
+}
+.stick-containerT{
+    
+    position: fixed;
+    top:  70px;
+    right: 0;
+    
+width: 300px;
+background-color: aqua;
+height: 550px;
+border-radius: 6px;
+border: 3px solid black;
+}
+#back{
+    position: absolute;
+    left: 300px;
+    top:220px ;
+}
+#forword{
+    position: absolute;
+    right: 300px;
+    top:220px ;
+}
+.aling-colum img{
+    width: 25px;
+    height: 25px;
+}
+
+.aling-colum{
+    display: flex;
+    
+    flex-direction: column;
+    margin-left: 30px;
+}
+.aling-columT{
+    display: flex;
+    
+    flex-direction: column;
+    margin-left: 30px;
+}.aling-columT img{
+    width: 25px;
+    height: 25px;
+}
+.name-colum{
+    display: flex;
+    flex-direction: column;
+}
+.videos .video-container{
+   
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.center-block{
+  
+   
+    background-color: gray;
+    margin-top: 5px;
+    border-radius: 15px;
+    margin-left: 320px;
+    width: 620px;
+    height: 100px;
+    border: 2px solid blueviolet;
+}
+.center-block p{
+    margin-top: 0px;
+}.center-block input{
+ border-radius: 9px;
+    border: 3px solid rgb(3, 116, 69);
+}
